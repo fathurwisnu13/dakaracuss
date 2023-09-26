@@ -45,7 +45,7 @@
                                 </div>
                             </div>
                             <div class="mb3 d-grid">
-                                <button type="submit" class="btn btn-primary rounded-2">Log In</button>
+                                <button type="submit" class="btn btn-primary rounded-2">Sign Up</button>
                             </div>
                         </form>
                     </div>
