@@ -50,7 +50,7 @@
                         </form>
                     </div>
                     <div class="text-center">
-                        Already have an account? <a href="{{ route('auth.login.show') }}"><u>Log In</u></a>
+                        Already have an account?? <a href="{{ route('auth.login.show') }}"><u>Log In</u></a>
                     </div>
                 </div>
             </div>
