@@ -26,6 +26,7 @@ class SignUpRequest extends FormRequest
             'username' => 'required|alpha_dash|unique:App\Models\User,username|min:3|max:50',
             'email' => 'required|email|unique:App\Models\User,email|min:8|max:50',
             'password' => ['required', Password::min(8)->mixedCase()->numbers()->symbols()],
+            'noanggota' => ['required', Password::min(8)->numbers()->symbols()],
         ];
     }
 }

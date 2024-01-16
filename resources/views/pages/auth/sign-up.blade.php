@@ -29,6 +29,12 @@
                                 @enderror
                             </div>
                             <div class="mb-3">
+                                <label for="noanggota" class="form-label">No Anggota</label>
+                                <input type="text" class="form-control @error('noanggota') is-invalid @enderror" 
+                                    id="noanggota" autocomplete="off" name="noanggota" value="{{ old('noanggota') }}">
+                                
+                            </div>
+                            <div class="mb-3">
                                 <label for="password" class="form-label">Password</label>
                                 <div class="input-group">
                                     <input type="password" class="form-control border-end-0 pe-0 rounded-0 rounded-start @error('password') is-invalid @enderror" 
